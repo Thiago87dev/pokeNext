@@ -54,7 +54,7 @@ export default function About() {
       </p>
 
       <p>
-        <em>Gotta catch 'em all!</em>
+        <em>Gotta catch em all!</em>
       </p>
 
       <Image src='/images/charizard.png' width={300} height={300} alt="charizard"/>
