@@ -41,8 +41,8 @@ export default function Pokemon({ pokemon }) {
       <Image
         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png
         `}
-        width={120}
-        height={120}
+        width={200}
+        height={200}
         alt={pokemon.name}
       />
       <div>
