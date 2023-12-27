@@ -34,18 +34,12 @@ export const getStaticProps = async (context) => {
 };
 
 export default function Pokemon({ pokemon }) {
-  let pokemonId = pokemon.id;
-  if (pokemonId < 10) {
-    pokemonId = `0${pokemonId}`;
-  }
-  if (pokemonId < 100) {
-    pokemonId = `0${pokemonId}`;
-  }
+  
   return (
     <div className={styles.pokemon_container}>
       <h1 className={styles.pokemon_title}>{pokemon.name}</h1>
       <Image
-        src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pokemonId}.png
+        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png
         `}
         width={120}
         height={120}
