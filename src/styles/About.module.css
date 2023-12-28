@@ -31,3 +31,14 @@
 .about span{
     font-weight: bold;
 }
+
+@media(max-width: 768px){
+    .about{
+        padding: 1em;
+
+    }
+
+    .about ul{
+        width: 80%;
+    }
+}
