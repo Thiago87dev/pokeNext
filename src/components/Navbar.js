@@ -15,7 +15,7 @@ export default function Navbar() {
           alt="pokeball"
         />
         </Link>
-        <Link href='/'><h1 className={styles.linkh1}>PokeNext</h1></Link>
+        <Link href='/' className={styles.linkh1}><h1 >PokeNext</h1></Link>
       </div>
       <ul className={styles.link_items}>
         <li>
