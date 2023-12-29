@@ -1,5 +1,5 @@
 # PokeNext ![](public/images/pokeball.png)
-## React + Next 
+## React + Next + python*
 <img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black" alt="react"/>
 <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="next js"/>
 
@@ -21,6 +21,7 @@ A website that shows some pokemons and their details.
 * React
 * Next
 * Git/GitHub
+* Python*
 
 ### 🌐 Website
 :link: Link to access the website:<br/>[https://poke-next-one-xi.vercel.app/](https://poke-next-one-xi.vercel.app/)
@@ -43,10 +44,10 @@ A website that shows some pokemons and their details.
 - Frontend Mentor - [@MrThiago87](https://www.frontendmentor.io/profile/MrThiago87)
 - Instagram - [@thiagopaulista87](https://www.instagram.com/thiagopaulista87/)
 
-#### Important Note:
+#### *Important Note:
 
 This project uses information and images from the Pokémon API to display data about different Pokémon. However, due to restrictions, Pokémon images were downloaded and incorporated locally into the project.
 
-To facilitate the process of obtaining images, I developed a simple Python script that automatically downloads images from the Pokémon API. This script loops through the desired Pokémon and downloads the corresponding images directly to the project directory.
+To facilitate the process of obtaining images, I developed a simple <strong>Python</strong> script that automatically downloads images from the Pokémon API. This script loops through the desired Pokémon and downloads the corresponding images directly to the project directory.
 
 :link: Link to access the python script repository:<br/>[https://github.com/Thiago87dev/imageDownloader](https://github.com/Thiago87dev/imageDownloader)
