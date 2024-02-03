@@ -14,7 +14,7 @@ A website that shows some pokemons and their details.
 * The home page shows the first 251 pokemons
 * You can see the pokemon details by clicking the 'detalhes' button
 * the 'sobre' page shows website information
-* Response
+* Responsive
 
 ###  🛠️ Built with
 
